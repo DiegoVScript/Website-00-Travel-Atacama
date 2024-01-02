@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atacama</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="icon" type="image/svg+xml" href="menuIcon/icon.png" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="brand">Travel</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <video class="video-slide active" src="videos/Atacama1.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="videos/Atacama2.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="videos/Atacama3.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="videos/Atacama4.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="videos/Atacama5.mp4" autoplay muted loop></video>
+
+        <div class="content active">
+            <h1>Unique<br /><span>Biodiversity</span></h1>
+            <p>
+                Immerse yourself in the unexpected oasis of life thriving in one of the world's
+                driest deserts. Witness nature's ingenious adaptations to
+                extreme conditions.
+            </p>
+            <a href="https://www.cda.uc.cl/investigacion/biodiversidad/" target="_blank" rel="noopener noreferrer">Read
+                More</a>
+        </div>
+        <div class="content">
+            <h1>Stargazing<br /><span>Extravaganza</span></h1>
+            <p>
+                Experience the magic of the night sky in one of the best stargazing locations
+                on Earth. Be enchanted by the brilliance of stars, planets, and the Milky Way against the backdrop of
+                the Atacama's pristine, dark skies.
+            </p>
+            <a href="https://atacamastargazing.com/" target="_blank" rel="noopener noreferrer">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Renewable Energy<br /><span>Projects</span></h1>
+            <p>
+                Discover how the Atacama Desert contributes to the push for renewable energy.
+                Solar energy projects harness the region's intense sunlight, paving the way for a cleaner and more
+                sustainable future.
+            </p>
+            <a href="https://energia.gob.cl/noticias/atacama/energia-de-la-region-de-atacama" target="_blank"
+                rel="noopener noreferrer">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Presence of Snow in<br /><span>High Peaks</span></h1>
+            <p>
+                Despite being the driest desert globally, the high peaks of the Atacama
+                Desert are covered in snow. The altitude prevents temperatures from rising significantly, creating a
+                unique landscape where the aridity of the desert contrasts with the presence of snow at higher
+                altitudes.
+            </p>
+            <a href="https://www.fundacionaquae.org/wiki/el-desierto-de-atacama-el-desierto-mas-seco-el-desierto-florido/#:~:text=Atacama%20es%20tan%20%C3%A1rido%20que,cierta%20cobertura%20de%20nieve%20permanente."
+                target="_blank" rel="noopener noreferrer">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Book Your Journey<br /><span>Today</span></h1>
+            <p>
+                Book Your Journey with Us:
+
+                At our agency, we take pride in offering unique experiences that go beyond conventional tourism. Explore
+                the wonders of the Atacama Desert with us and create memories that will last a lifetime. Book your trip
+                now and get ready to immerse yourself in the magic of Atacama!
+            </p>
+            <a href="https://flights.skyairline.com/en-us/flights-to-san-pedro-de-atacama" target="_blank"
+                rel="noopener noreferrer">Read More</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
